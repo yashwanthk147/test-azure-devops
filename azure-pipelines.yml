@@ -4,7 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- none
+  branches:
+    include:
+      - refs/tags/{tagname}
+    exclude:
+      - refs/tags/{othertagname}
 
 variables:
 - group: my-vars

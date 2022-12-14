@@ -1,1 +1,1 @@
-# test-azure-devops
+# test-azure-devops - v1.0.0
